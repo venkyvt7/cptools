@@ -1,0 +1,32 @@
+body{
+
+    text-align: center;
+    background-color: hotpink;
+}
+
+.tt{
+
+/* border: 2px solid green;  */
+padding: 1%;
+display:inblock;
+ margin-top:10px ; 
+
+}
+
+#input1{
+    margin: 100px auto 100px;
+    /* margin-left: 220px; */
+    width: 400px;
+    height: 40px;
+    display: block;
+    text-align: center;
+ font-size: 40px;
+
+}
+button{
+  font-size: 40px;
+background-color: lawngreen;
+border-radius: 20px;
+
+
+}

@@ -1,0 +1,41 @@
+ #head1 {
+display: inline-block;
+border:2px solid rgb(137, 206, 33);
+
+margin-left: 30%;
+
+
+}
+
+#sol
+{
+
+border:2px solid rgb(137, 206, 33);
+
+
+margin-left: 30%;
+
+}
+
+p{
+    display: inline-block;
+
+      padding: 2%;
+   margin-left: 24%;
+   border:2px solid rgb(137, 206, 33);
+
+
+}
+
+button{
+
+margin-left: 45%;
+border-radius: 20px;
+
+
+}
+body{
+
+background-color: greenyellow;
+
+}
