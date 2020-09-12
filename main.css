@@ -1,0 +1,15 @@
+ul{
+
+    display: flex;
+
+}
+
+ li{
+
+list-style: none;
+text-decoration: coral;
+font-size:60px;
+padding: 20px;
+background-color: lawngreen;
+
+ }

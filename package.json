@@ -1,0 +1,22 @@
+{
+  "name": "cptools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkyvt7/cptools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkyvt7/cptools/issues"
+  },
+  "homepage": "https://github.com/venkyvt7/cptools#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

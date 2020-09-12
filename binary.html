@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINARY</title>
+    <style>#BinaryOut{
+
+        border: 2px solid green;
+    text-align: center;
+    font-size: 50;
+    color: brown;
+    
+    }
+    
+    #bti{
+    
+    font-size: 50px;
+        text-align: center;
+    text-decoration: aquamarine;
+    
+    }
+    button, h1{
+    
+    font-size: 50px;
+    border-radius: 50px;
+    
+    }
+    </style>
+<body>
+   
+   <span id="BinaryOut">  <h1 > INT TO BINARY <br>  <input id="numb" style=" font-size:50px; width:1000px; height: 55px;"  type="number">  <br> <button  id="i2"> ENTER </button>    </h1></span>
+
+   <p  id="bti"> </p>
+
+   <script>
+
+   let num=document.getElementById("i2");
+
+
+
+
+        num.addEventListener( 'click', ()=>{
+
+            let x=document.getElementById("numb").value;
+console.log(x);
+
+if(x==""||x<0)
+{  let y=document.getElementById("bti");
+
+y.innerHTML= ` `;
+    
+    return 0;
+}
+let pp=x;
+str="";
+
+if(x==0)
+str="0";
+
+    while(x!=0)
+    {
+
+        let z=x%2;
+
+        str=str+ z;
+
+
+        if(x%2==0)
+        x=x/2;
+
+        else
+        x=(x-1)/2;
+
+        console.log(x);
+
+    }
+   
+
+
+
+
+    let kk="";
+
+    let i=str.length-1;
+
+    while(i>=0)
+    {
+
+     kk=kk+ str[i];
+
+        i--;
+
+    }
+
+
+
+   let y=document.getElementById("bti");
+
+   y.innerHTML= ` THE CONVERSION OF ${pp} in binary is ${kk} `;
+
+        })
+
+   </script>
+</body>
+</html>

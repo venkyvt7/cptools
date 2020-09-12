@@ -1,0 +1,22 @@
+#BinaryOut{
+
+    border: 2px solid green;
+text-align: center;
+font-size: 50;
+color: brown;
+
+}
+
+#bti{
+
+font-size: 50px;
+    text-align: center;
+text-decoration: aquamarine;
+
+}
+button, h1{
+
+font-size: 50px;
+border-radius: 50px;
+
+}
