@@ -2,7 +2,7 @@ const { readFileSync, readFile } = require("fs");
 
 const home= readFileSync("main.html");
 const prime=readFileSync("prime.html");
-const  string11 =readFileSync("slegth.html");
+const string11=readFileSync("slegth.html");
 const factors=readFileSync("factors.html");
 const binary= readFileSync("binary.html");
 const port=80;
@@ -33,7 +33,7 @@ app.get("/factors" , (req,res)=>{
 
 app.get("/prime",(req,res)=>{ res.end(prime) });
 
-app.get("/string", (req,res)=>{res.end(string11)});
+app.get("/string11", (req,res)=>{res.end(string11)});
 
 app.get("/binary", (req,res)=> {res.end(binary) });
 
