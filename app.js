@@ -33,7 +33,7 @@ app.get("/factors" , (req,res)=>{
 
 app.get("/prime",(req,res)=>{ res.end(prime) });
 
-app.get("/string11", (req,res)=>{res.end(string11)});
+app.get("/slegth", (req,res)=>{res.end(string11)});
 
 app.get("/binary", (req,res)=> {res.end(binary) });
 
